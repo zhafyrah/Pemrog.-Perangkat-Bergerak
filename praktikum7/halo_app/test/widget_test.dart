@@ -8,8 +8,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-// import 'package:haloapp/main.dart';
-import 'package:haloapp/ui/haloapp.dart';
+// import 'package:halo_app/main.dart';
+import 'package:halo_app/ui/halo_app.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
@@ -28,7 +28,4 @@ void main() {
     expect(find.text('0'), findsNothing);
     expect(find.text('1'), findsOneWidget);
   });
-}
-
-void testWidgets(String s, Future<Null> Function(dynamic tester) param1) {
 }
